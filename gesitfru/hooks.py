@@ -1,7 +1,7 @@
 app_name = "gesitfru"
 app_title = "gesitfru"
 app_publisher = "Gegas Solusi Informatika"
-app_description = "Modules For FRU"
+app_description = "Custom Modules For FRU"
 app_email = "support@gesiterp.com"
 app_license = "mit"
 

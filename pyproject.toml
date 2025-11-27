@@ -3,7 +3,7 @@ name = "gesitfru"
 authors = [
     { name = "Gegas Solusi Informatika", email = "support@gesiterp.com"}
 ]
-description = "Modules For FRU"
+description = "Custom Modules For FRU"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
