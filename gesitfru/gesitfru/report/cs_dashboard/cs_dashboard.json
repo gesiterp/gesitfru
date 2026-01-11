@@ -1,0 +1,33 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-12-14 19:20:01.217870",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "Sembarang FRU",
+ "letterhead": null,
+ "modified": "2025-12-14 19:20:01.217870",
+ "modified_by": "Administrator",
+ "module": "gesitfru",
+ "name": "CS Dashboard",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "CS",
+ "report_name": "CS Dashboard",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "FRU"
+  }
+ ],
+ "timeout": 0
+}

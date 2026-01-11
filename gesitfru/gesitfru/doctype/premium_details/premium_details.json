@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-13 00:39:58.752195",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ins_name",
+  "share",
+  "gross",
+  "discount",
+  "discount_percent",
+  "bkg_percent",
+  "bkg",
+  "ef_percent",
+  "ef",
+  "total_premium",
+  "pph",
+  "ppn",
+  "nett_due"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ins_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "COMPANY",
+   "options": "Insurance Company"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "share",
+   "fieldtype": "Percent",
+   "label": "SHARE (%)",
+   "precision": "1"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "gross",
+   "fieldtype": "Currency",
+   "label": "GROSS (Premium Due)",
+   "read_only": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "discount",
+   "fieldtype": "Currency",
+   "label": "Discount"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "bkg_percent",
+   "fieldtype": "Percent",
+   "label": "BKG (%)",
+   "precision": "1"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "bkg",
+   "fieldtype": "Currency",
+   "label": "BKG",
+   "read_only": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ef_percent",
+   "fieldtype": "Percent",
+   "label": "EF (%)",
+   "precision": "1"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ef",
+   "fieldtype": "Currency",
+   "label": "EF"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "total_premium",
+   "fieldtype": "Currency",
+   "label": "Total Premium"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "pph",
+   "fieldtype": "Currency",
+   "label": "PPH (2%)",
+   "precision": "2"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ppn",
+   "fieldtype": "Currency",
+   "label": "PPN (2.2%)",
+   "precision": "2"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "nett_due",
+   "fieldtype": "Currency",
+   "label": "NETT DUE",
+   "read_only": 1
+  },
+  {
+   "fieldname": "discount_percent",
+   "fieldtype": "Percent",
+   "label": "disc (%)",
+   "precision": "1"
+  }
+ ],
+ "grid_page_length": 100,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-14 19:30:08.933712",
+ "modified_by": "Administrator",
+ "module": "gesitfru",
+ "name": "PREMIUM DETAILS",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 50,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

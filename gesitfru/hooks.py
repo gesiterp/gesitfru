@@ -241,4 +241,9 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+override_whitelisted_methods = {
+    "create_cs_from_dn": "your_app.api.cs_api.create_cs_from_dn"
+}
+
+
 
