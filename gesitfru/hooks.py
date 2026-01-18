@@ -245,5 +245,14 @@ override_whitelisted_methods = {
     "create_cs_from_dn": "your_app.api.cs_api.create_cs_from_dn"
 }
 
-
+fixtures = [
+    "Custom Field",
+    "Property Setter",
+    "Client Script",
+    "Print Format",
+    # Use "DocType" with a filter to only get your custom ones
+    {"dt": "DocType", "filters": [["custom", "=", 1]]},
+    "Role",
+    "Report"
+]
 
